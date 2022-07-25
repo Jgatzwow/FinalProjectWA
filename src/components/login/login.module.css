@@ -1,0 +1,21 @@
+.wrapper {
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 2fr 10fr;
+    margin-left: 40px;
+    padding-top: 20px;
+    height: 100vh;
+
+}
+
+
+input {
+    width: 20vw;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.error {
+    color: red;
+}

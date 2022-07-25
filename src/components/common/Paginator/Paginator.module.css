@@ -1,0 +1,22 @@
+
+.selectedPage {
+    font-weight: bold;
+}
+
+.pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    gap: 10px;
+}
+
+.button_next {
+    width: 15px;
+    height: 15px;
+}
+
+.button_prev {
+    width: 15px;
+    height: 15px;
+}

@@ -1,0 +1,56 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    grid-area: h;
+    background-color: rgba(24, 23, 23, 0.83);
+
+}
+
+.header img {
+    width: 60px;
+    height: 60px;
+
+}
+
+.loginBlock {
+    float: right;
+    color: white;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+.link {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover,
+link:focus {
+    color: gold;
+}
+
+.title {
+    color: white;
+}
+
+
+.button {
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #777676;
+
+}

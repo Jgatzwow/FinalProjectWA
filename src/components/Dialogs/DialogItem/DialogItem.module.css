@@ -1,0 +1,28 @@
+.dialogsItems {
+    padding: 10px;
+}
+
+.dialog {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.dialog_link {
+    text-decoration: none;
+    color: white;
+}
+
+
+.link_wrap{
+    margin-bottom: 20px;
+}
+
+.dialog_link:hover,
+.dialog_link:active {
+    color: gold;
+}
+
+.dialog_link:focus{
+    outline: none;
+    color: gold;
+}

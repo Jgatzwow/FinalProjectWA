@@ -1,0 +1,44 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(131, 182, 239);
+}
+
+.nav {
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    grid-area: n;
+
+}
+
+.item a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.item a:first-child {
+    padding-top: 40px;
+}
+
+
+.item a:focus {
+    color: gold;
+    outline: none;
+}
+
+.item a:active {
+    color: gold;
+}
+
+.logo {
+    margin-bottom: 40px;
+}
